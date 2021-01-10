@@ -663,6 +663,9 @@ footer span a:hover{
     .skills .skills-content .left .text{
         font-size: 19px;
     }
+    .row.lastrow {
+        margin-top: 14px;
+    }
     .contact .right form .fields{
         flex-direction: column;
     }
