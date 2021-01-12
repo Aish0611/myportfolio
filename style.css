@@ -166,13 +166,14 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/Hero3.gif") no-repeat center;
+    /* background: url("images/Hero3.gif") no-repeat center; */
     height: 100vh;
     color: #fff;
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
+    background: black;
 }
 .home .max-width{
     margin: auto 0 auto 30px;
@@ -787,13 +788,6 @@ footer span a:hover{
     .about .about-content .right .text,
     .skills .skills-content .left .text{
         font-size: 19px;
-    }
-    .row.lastrow {
-<<<<<<< HEAD
-        margin-top: 10px;
-=======
-        margin-top: 14px;
->>>>>>> b25b749fb052c4d4b04d245ac33db646a93c058d
     }
     .contact .right form .fields{
         flex-direction: column;
