@@ -789,7 +789,11 @@ footer span a:hover{
         font-size: 19px;
     }
     .row.lastrow {
+<<<<<<< HEAD
         margin-top: 10px;
+=======
+        margin-top: 14px;
+>>>>>>> b25b749fb052c4d4b04d245ac33db646a93c058d
     }
     .contact .right form .fields{
         flex-direction: column;
