@@ -166,14 +166,14 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    /* background: url("images/Hero3.gif") no-repeat center; */
+    background-image: url("images/Finalhero.jpg");
     height: 100vh;
     color: #fff;
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
-    background: black;
+/*     background: black; */
 }
 .home .max-width{
     margin: auto 0 auto 30px;
