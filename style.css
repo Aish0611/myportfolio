@@ -173,7 +173,8 @@ section .title::after{
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
-/*     background: black; */
+    /* background: black; */
+    z-index: 10;
 }
 .home .max-width{
     margin: auto 0 auto 30px;
@@ -304,6 +305,10 @@ section .title::after{
     font-size: 20px;
     font-weight: 500;
     margin: 15px 0 14px 0;
+}
+.card.allroles {
+    background: crimson !important;
+    color: #fff;
 }
 
 /* skills section styling */
